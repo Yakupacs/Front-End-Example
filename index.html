@@ -5,9 +5,12 @@
         <meta http-equiv="X-UA-Compatible" content="IE-edge">
         <meta name="viewport" content="width-device-width, initial-scale=1.0">
         <title>Document</title>
+        <script src="https://unpkg.com/scrollreveal"></script>
         <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/7ff63dab70.js" crossorigin="anonymous"></script>
     </head>
     <body>
+        <!--HEADER START-->
         <header id="header">
             <div class="header">
                 <div class="container">
@@ -16,12 +19,13 @@
                             <h2>BOOK</h2>
                         </div>
                         <div class="header-menu">
-                            <ul>
+                            <ul id="menuItems">
                                 <li><a href="#">Home</a></li>
                                 <li><a href="#">About</a></li>
                                 <li><a href="#">Discover</a></li>
                                 <li><a href="#">Contact</a></li>
                             </ul>
+                            <i class="fa-solid fa-bars" id="menu-icon" onclick="menuToggle();"></i>
                         </div>
                     </div>
                     <div class="header-text">
@@ -32,5 +36,218 @@
                 </div>
             </div>
         </header>
+        <!--HEADER FINISH-->
+        <!--ABOUT START-->
+        <section id="about">
+            <div class="container">
+                <div class="about-tittle">
+                    <h2>ABOUT</h2>
+                </div>
+                <div class="about-content">
+                    <div class="about-image anime-left">
+                        <img src="about.jpg" alt="">
+                    </div>
+                    <div class="about-text" anime-right>
+                        <h4>Our Story</h4>
+                        <div id="asteriks">
+                            <h1>*</h1>
+                        </div>
+                        <p>
+                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--ABOUT FINISH-->
+        <!--PORTFOLLO START-->
+        <section id="portfolio">
+            <div class="portfolio">
+                <div class="portofolio-item ani1">
+                    <img height=465px width=460px src="1.jpg" alt="">
+                    <div class="overlay">
+                        <i class="fa-solid fa-book-heart"></i>
+                    </div>
+                </div>
+                <div class="portofolio-item" ani2>
+                    <img height=465px width=460px src="2.jpg" alt="">
+                    <div class="overlay">
+                        <i class="fa-solid fa-book-heart"></i>
+                    </div>
+                </div>
+                <div class="portofolio-item" ani3>
+                    <img height=465px width="460px" src="3.jpg" alt="">
+                    <div class="overlay">
+                        <i class="fa-solid fa-book-heart"></i>
+                    </div>
+                </div>
+                <div class="portofolio-item" ani4>
+                    <img height=465px width="460px" src="4.jpg" alt="">
+                    <div class="overlay">
+                        <i class="fa-solid fa-book-heart"></i>
+                    </div>
+                </div>
+                <div class="portofolio-item" ani5>
+                    <img height=465px width="460px" src="5.jpg" alt="">
+                    <div class="overlay">
+                        <i class="fa-solid fa-book-heart"></i>
+                    </div>
+                </div>
+                <div class="portofolio-item" ani6>
+                    <img height=465px width="460px" src="6.jpg" alt="">
+                    <div class="overlay">
+                        <i class="fa-solid fa-book-heart"></i>
+                    </div>
+                </div>
+                <div class="portofolio-item" ani7>
+                    <img height=465px width="460px" src="7.jpg" alt="">
+                    <div class="overlay">
+                        <i class="fa-solid fa-book-heart"></i>
+                    </div>
+                </div>
+                <div class="portofolio-item" ani8>
+                    <img height=465px width="460px" src="8.jpg" alt="">
+                    <div class="overlay">
+                        <i class="fa-solid fa-book-heart"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--PORTFOLLO FINISH-->
+        <!--DISCOVER START-->
+        <section id="about">
+            <div class="container">
+                <div class="about-tittle">
+                    <h2>DISCOVER</h2>
+                </div>
+                <div class="about-content">
+                    <div class="about-image anime-left">
+                        <img src="menu.jpg" alt="">
+                    </div>
+                    <div class="about-text anime-right">
+                        <h4>Our Story</h4>
+                        <div id="asteriks">
+                            <h1>*</h1>
+                        </div>
+                        <p>
+                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--DISCOVER FINISH-->
+        <!--CONTACT START-->
+        <section id="contact">
+            <div class="contact">
+                <div class="container">
+                    <div class="page-title">
+                        <h2>CONTACT</h2>
+                    </div>
+                    <div class="contact-content">
+                        <div class="contact-item anime-top">
+                            <i class="fa-solid fa-phone"></i>
+                            <p>0535 535 53 **</p>
+                            <br>                            
+                            <p>0532 532 52 **</p>
+                            <br>
+                        </div>
+                        <div class="contact-item anime-bottom">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p>Düzyurt,16, 25500, Aşkale/Elazig, Turkey</p>
+                        </div>
+                        <div class="contact-item anime-top">
+                            <i class="fa-solid fa-envelope"></i>
+                            <p>book.house@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--CONTACT FINISH-->
+        <!--FOOTER START-->
+        <footer id="footer">
+            <div class="footer">
+                <div class="footer-content">
+                    <div class="page-tittle">
+                        <h2>ABOUT US</h2>
+                    </div>
+                    <div class="footer-copyright">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                        <br>
+                    </div>
+                    <nav class="footer-social">
+                        <ul>
+                            <a href="https://www.instagram.com/yakupacs">
+                                <img src="instagram.png">
+                            </a>
+                            <a href="https://www.linkedin.com/in/yakupacs/">
+                                <img src="linkedin.png">
+                            </a>
+                            <a href="https://github.com/Yakupacs">
+                                <img src="github.png">
+                            </a>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </footer>
+        <!--FOOTER FINISH-->
+
+        <script>
+            window.sr=ScrollReveal();
+            
+            sr.reveal('.anime-left'.{
+                origin: 'left',
+                duration: 1000,
+                distance: '25rem',
+                delay:300
+            });            
+            sr.reveal('.anime-right'.{
+                origin: 'right',
+                duration: 1000,
+                distance: '25rem',
+                delay:600;
+            });            
+            sr.reveal('.anime-top'.{
+                origin: 'top',
+                duration: 1000,
+                distance: '25rem',
+                delay:600;
+            });            
+            sr.reveal('.anime-bottom'.{
+                origin: 'bottom',
+                duration: 1000,
+                distance: '25rem',
+                delay:600;
+            });
+        </script>
+
+
+        <script>
+            ScrollReveal().reveal('.ani1', {delay:250});
+            ScrollReveal().reveal('.ani2', {delay:500});
+            ScrollReveal().reveal('.ani3', {delay:750});
+            ScrollReveal().reveal('.ani4', {delay:1000});
+            ScrollReveal().reveal('.ani5', {delay:1250});
+            ScrollReveal().reveal('.ani6', {delay:1500});
+            ScrollReveal().reveal('.ani7', {delay:1750});
+            ScrollReveal().reveal('.ani8', {delay:2000});
+
+        </script>
+
+
+
+        <script>
+            var menuItems=document.getElementById('menuItems');
+            menuItems.style.maxHeight="0px";
+
+            function menuToggle(){
+                if (menuItems.style.maxHeight=="0px"){
+                    menuItems.style.maxHeight="200px";
+                }
+                else{
+                    menuItems.style.maxHeight="0px";
+                }
+            }
+        </script>
     </body>
 </html>

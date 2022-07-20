@@ -9,6 +9,7 @@
     box-sizing: border-box;
     border: 0;
     font-family: 'Poppins', sans-serif;
+    font-family: "Font Awesome 5 Free";
 }
 
 a,
@@ -96,6 +97,11 @@ h1{
     font-family: 'Herr Von Muellerhoff', cursive;
 }
 
+.header-menu{
+    letter-spacing: 0.07rem;
+}
+
+
 .first-letter
 {
     font-size: 10.3rem;
@@ -137,4 +143,304 @@ h3{
 
 .btn-book:hover::after{
     top: 0;
+}
+
+/* ABOUT */
+.about{
+    margin-bottom: 150px;
+}
+
+.about-tittle{
+    margin: 60px 0px;
+}
+
+.about-tittle h2{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.about-tittle h2::after{
+    content: "";
+    width: 30px;
+    height: 3px;
+    background-color: black;
+    margin: 0 auto;
+    display: block;
+    margin-top: 10px;
+}
+
+.about-content{
+    display: flex;
+    align-items: center; /* yatayda hizalama */
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.about-image{
+    width: 40%;
+}
+
+.about-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-bottom: 185px;
+    margin-top: 125px;
+}
+
+.about-text{
+    width: 45%;
+    height: 100%;
+    object-fit: cover;
+    margin-bottom: 185px;
+    margin-top: 125px;
+}
+
+h4{
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Herr Von Muellerhoff', cursive;
+    letter-spacing: 0.5rem;
+    font-weight: 100;
+}
+
+
+#asteriks{
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.about-text p{
+    font-size: 15px;
+    text-align: center;
+    color: #2c2727;
+}
+
+/* PORTFOLIO */
+
+.portfolio{
+    display: flex;
+    flex-wrap: wrap; /*Taşanları aşağı getirecek.*/
+}
+
+.portfolio-item{
+    width: 25%;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+}
+
+.portfolio-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: .5s;
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 100;
+    left: 0;
+    opacity: 5;
+    color: #fff;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+}
+
+.portfolio-item:hover .overlay{
+    top: 0;
+}
+
+.portfolio-item:hover img{
+    transform: scale(1,1);
+}
+
+/* CONTACT */
+
+.contact{
+    padding: 10px 0px;
+}
+
+.contact h2{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.contact h2::after{
+    content: "";
+    width: 30px;
+    height: 3px;
+    background-color: black;
+    margin: 0 auto;
+    display: block;
+    margin-top: 10px;
+}
+
+.contact-content{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact-item{
+    display: flex;
+    align-items: center; /* dikeyde hizalama */
+    flex-basis: 33%; /* alan kaplaması için */
+    margin-bottom: 100px;
+    flex-direction: column;
+}
+
+.contact-item i{
+    font-size: 25px;
+    margin-bottom: 30px;
+    color: #5b2a02;
+}
+
+.contact-item p{
+    font-size: 18px;
+    line-height: 20px;
+}
+
+/* FOOTER */
+
+.footer h2{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 55px 0;
+}
+
+.footer h2::after{
+    content: "";
+    width: 30px;
+    height: 3px;
+    background-color: rgb(93, 15, 15);
+    margin: 0 auto;
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.footer{
+    background-color: rgb(93, 15, 15);
+}
+
+.footer-copyright{
+    color: white;
+    text-align: center;
+    flex-basis: 50%;
+    line-height: 2;
+    font-size: 14px;
+    margin-bottom: 35px;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer-social img{
+    color: white;
+    margin-bottom: 100px;
+    font-size: 25px;
+    padding: 0 45px;
+}
+
+.footer-social:first-child{
+    margin-left: 70px;
+}
+
+#menu-icon{
+    font-size: 25px;
+    display: none;
+    margin-left: 20px;
+}
+
+/* MENU RESPONSIVE */
+
+@media only screen and (max-width:800px){
+    .header-menu ul{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: absolute;
+        top: 100px;
+        left: 0px;
+        width: 100%;
+        overflow: hidden;
+        transition: max-height .5s;
+    }
+    .header-menu ul li{
+        margin-right: 50px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .header-menu ul li a{
+        color: black;   
+    }
+    .header-menu #menu-icon{
+        display: block;
+        cursor: pointer;
+    }
+}
+
+/* ABOUT RESPONSIVE */
+
+@media only screen and (max-width:990px){
+    .about-img{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .about-text{
+        width: 100%;
+    }
+}
+
+/* PORTFOLIO RESPONSIVE */
+
+@media only screen and (max-width:990px){
+    .portfolio .portfolio-item{
+        flex-basis: 50%;
+    }
+}
+
+@media only screen and (max-width:580px){
+    .portfolio .portfolio-item{
+        flex-basis: 100%;
+    }
+}
+
+/* CONTACT RESPONSIVE */
+
+@media only screen and (max-width:800px){
+    .contact-content{
+        flex-direction: column;
+    }
+    .contact-item{
+        margin-top: 30px;
+    }
+    .contact-item p{
+        width: 100%;
+        text-align: center;
+    }
 }
