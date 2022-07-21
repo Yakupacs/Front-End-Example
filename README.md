@@ -15,3 +15,12 @@ FRONT-END EXERCISES
   
 ## Notes
   
+##### Margins are used to create space around elements, outside of any defined borders.
+```
+p {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+}
+```
