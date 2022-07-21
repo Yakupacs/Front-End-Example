@@ -45,7 +45,7 @@ p
 }
 
 .header{
-    background-image: url(background.jpg);
+    background-image: url(imgs/background.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
