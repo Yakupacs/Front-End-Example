@@ -1,2 +1,3 @@
-# Front-End-Example
-I am working Front-End on website drafts.
+<h1 align="center">
+FRONT END EXERCISES
+<h1>
