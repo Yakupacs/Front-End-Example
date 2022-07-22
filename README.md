@@ -41,7 +41,7 @@ div {
 
 <br>
 
-##### The *background*-*attachment* property sets whether a background image scrolls with the rest of the page, or is fixed.
+##### The *Background-Attachment* property sets whether a background image scrolls with the rest of the page, or is fixed.
 
 ```
 body {
@@ -53,7 +53,7 @@ body {
 
 <br>
 
-##### The *display* property specifies the display behavior (the type of rendering box) of an element.
+##### The *Display* property specifies the display behavior (the type of rendering box) of an element.
 
 ```
 .a {
@@ -63,7 +63,7 @@ body {
 
 <br>
 
-##### The *align-items property* specifies the default alignment for items inside the flexible container.
+##### The *Align-Items* property specifies the default alignment for items inside the flexible container.
 
 ```
 div {
