@@ -42,3 +42,34 @@ div {
 <br>
 
 ##### The *background*-*attachment* property sets whether a background image scrolls with the rest of the page, or is fixed.
+
+```
+body {
+  background-image: url("img_tree.gif");
+  background-repeat: no-repeat;
+  background-attachment: scroll|fixed|local|initial|inherit;
+}
+```
+
+<br>
+
+##### The *display* property specifies the display behavior (the type of rendering box) of an element.
+
+```
+.a {
+  display: contents;
+}
+```
+
+<br>
+
+##### The *align-items property* specifies the default alignment for items inside the flexible container.
+
+```
+div {
+  display: flex;
+  align-items: center;
+}
+```
+
+<br>
