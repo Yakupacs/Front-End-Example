@@ -73,3 +73,12 @@ div {
 ```
 
 <br>
+
+##### The *Justify-Content* property aligns the flexible container's items when the items do not use all available space on the main-axis (horizontally).
+  
+```
+div {
+  display: flex;
+  justify-content: space-between;
+}
+```
