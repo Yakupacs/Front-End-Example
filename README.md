@@ -15,7 +15,8 @@ FRONT-END EXERCISES
   
 ## Notes
   
-##### Margins are used to create space around elements, outside of any defined borders.
+##### *Margins* are used to create space around elements, outside of any defined borders.
+
 ```
 p {
   margin-top: 100px;
@@ -24,3 +25,20 @@ p {
   margin-left: 80px;
 }
 ```
+
+<br>
+
+##### *Padding* is used to create space around an element's content, inside of any defined borders.
+
+```
+div {
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+```
+
+<br>
+
+##### The *background*-*attachment* property sets whether a background image scrolls with the rest of the page, or is fixed.
