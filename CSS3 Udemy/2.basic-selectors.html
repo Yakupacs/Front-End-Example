@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=, initial-scale=1.0">
+	<title>Basic Selectors</title>
+
+	<style>
+		h1{
+			color: red;
+			background-color: rgb(253, 167, 167);
+		}
+		p{
+			color: blue;
+			background-color: rgb(206, 206, 255);
+		}
+		h1, p{
+			color: brown;
+			background-color: rgb(184, 207, 184);
+		}
+		#logo{
+			color: wheat;
+			background-color: black;
+		}
+		.info{
+			color: greenyellow;
+			background-color: black;
+		}
+		#logo,
+		.lead{
+			color: whitesmoke;
+			background-color: green;
+		}
+		#para1.lead{
+			color: black;
+			background-color: yellow;
+		}
+		a{
+			text-decoration: none;
+		}
+		ul li a{
+			text-decoration:underline;
+		}
+		.info span.primary{
+			text-decoration: underline;
+			color: blue;
+		}
+
+		*{
+			font-size: 25px;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Header 1</h1>
+		<h1 id="logo">Logo</h1>
+		<ul>
+			<li>
+				<a href="#">Contact</a>
+			</li>
+			<li>
+				<a href="#">Services</a>
+			</li>
+		</ul>
+	</header>
+	<h1>Header 2</h1>
+	<p id="para1" class="lead ingo">
+		Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, corporis!
+	</p>
+	<p class="info">
+		Lorem, ipsum. <span class="primary">dolor</span> sit amet, consectatur
+		adipisicing elit. Veritatis, quae.
+	</p>
+	<p class="info">
+		Lorem, ipsum. <span>dolor</span> sit amet, consectatur
+		adipisicing elit. Veritatis, quae.
+	</p>
+	<p>Test Paragraph</p>
+	<a href="#">Home</a>
+</body>
+</html>
