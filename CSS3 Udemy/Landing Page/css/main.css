@@ -49,24 +49,82 @@
 
 /* Projects */
 
-#projects{
+#about{
 	color: #fff;
 	padding: 1rem;
 }
-#projects .items{
+#about .items{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
-#projects .items .item{
+#about .items .item{
 	width: 33%;
 	text-align: center;
 	padding: 0.8rem;
 }
-#projects .items .item:hover{
+#about .items .item:hover{
 	color:#6c87a0;
 	opacity: 0.9;
 }
-#projects .items .item h3{
+#about .items .item h3{
 	text-decoration: underline;
+}
+
+/* Projects */
+
+#projects{
+	color: #333;
+	padding: 1rem;
+}
+.projects{
+	display: flex;
+	flex-direction: column;
+	padding: 1rem;
+}
+.projects .project{
+	display: flex;
+	padding: 0.5rem;
+	margin-bottom: 0.5rem;
+}
+.projects .project .project-image{
+	margin-right: 0.5rem;
+}
+
+.projects .project .project-info .title{
+	letter-spacing: 0.5px;
+	margin-bottom: 0.25rem;
+	opacity: 0.6;
+}
+
+/* Contact */
+
+#contact{
+	color: white;
+	padding: 1rem;
+}
+
+#contact .contact-form{
+	max-width: 1100px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	flex-direction: column;
+}
+
+#contact .contact-form ul{
+	list-style-type: none;
+	display: flex;
+	margin-top: 1rem;
+	align-self:flex-end;
+}
+
+#contact .contact-form ul li a{
+	padding: 1rem;
+	font-size: 2rem;
+}
+
+
+#contact .contact-form ul li a:hover{
+	opacity: 0.4;
 }

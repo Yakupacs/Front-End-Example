@@ -20,6 +20,10 @@ html{
 	text-align: center;
 }
 
+.heading-extrasmall{
+	font-size: 1rem;
+}
+
 .heading-small{
 	font-size: 1.25rem;
 }
@@ -75,4 +79,19 @@ html{
 .container{
 	max-width: 1100px;
 	margin: 0 auto;
+}
+
+/* Forms */
+.form-group{
+	padding: 0.25rem 0;
+}
+.form-group label{
+	display: block;
+}
+.form-control{
+	width: 100%;
+	padding: 0.4rem;
+	font-size: 1rem;
+	resize: none;
+	border-radius: 10px;
 }

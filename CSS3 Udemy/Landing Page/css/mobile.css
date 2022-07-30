@@ -4,11 +4,15 @@
 	padding-bottom: 0.7rem;
 	overflow: hidden;
 	height: 80px;
+	font-size: 0.8rem;
 }
 
-#projects .items{
+#about .items{
 	flex-direction: column;
 }
-#projects .items .item{
+#about .items .item{
 	width: 100%;
+}
+.projects .projects{
+	flex-direction: column;
 }
