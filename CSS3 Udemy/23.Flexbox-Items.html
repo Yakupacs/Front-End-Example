@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CSS - Flexbox Items</title>
+	<style>
+		*{
+			padding: 0;
+			margin: 0;
+			box-sizing: border-box;
+		}
+		.container{
+			width: 75%;			
+			justify-content:space-around;
+			margin: 0 auto;
+			display: flex;
+			flex-direction: row;
+			min-height: 400px;
+			background-color: black;
+		}
+		.box{
+			text-align: center;
+			background-color: firebrick;
+			width: 200px;
+			height: 200px;
+			border: 2px solid black;
+			margin: 10px;
+		}
+		.box-1{
+			order: 3;
+			flex-grow: 1;
+			background-color: blue;
+		}
+		.box-2{
+			order: 2;
+			background-color: rgb(175, 175, 177);
+		}
+		.box-3{
+			order: 1;
+			background-color: rgb(39, 112, 61);
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="box box-1">
+			<h1>Article 1</h1>
+			<p>Lorem ipsum dolor sit amet.</p>
+		</div>
+		<div class="box box-2">
+			<h1>Article 2</h1>
+			<p>Lorem ipsum dolor sit amet.</p>
+		</div>
+		<div class="box box-3">
+			<h1>Article 3</h1>
+			<p>Lorem ipsum dolor sit amet.</p>
+		</div>
+	</div>
+</body>
+</html>
+</html>

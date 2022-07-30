@@ -1,0 +1,72 @@
+/* Navbar */
+
+#navbar{
+	color: #fff;
+	display: flex;
+	justify-content: space-between;	
+	align-items: center;
+	padding: 0 0.75rem;
+	height: 70px;
+}
+
+#navbar ul{
+	list-style-type: none;
+	display: flex;
+	align-items: center;
+}
+#navbar ul li a{
+	padding: 0.95rem;
+}
+#navbar ul li a:hover{
+	background: #336ea2;
+	padding: 0.95rem;
+	border-radius: 14px;
+}
+
+/* Home Section */
+
+#home{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 2rem;
+	border-bottom: 1px solid black;
+}
+
+#home img{
+	max-width: 100%;
+	height: auto;
+	border-radius: 100%;
+}
+#home .name h2{
+	margin-bottom: 0.75rem;
+}
+#home .name p{
+	opacity: 0.6;
+	font-style: italic;
+}
+
+/* Projects */
+
+#projects{
+	color: #fff;
+	padding: 1rem;
+}
+#projects .items{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#projects .items .item{
+	width: 33%;
+	text-align: center;
+	padding: 0.8rem;
+}
+#projects .items .item:hover{
+	color:#6c87a0;
+	opacity: 0.9;
+}
+#projects .items .item h3{
+	text-decoration: underline;
+}

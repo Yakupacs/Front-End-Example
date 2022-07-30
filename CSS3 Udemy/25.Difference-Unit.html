@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		*{
+			padding: 0;
+			margin: 0;
+			box-sizing: border-box;
+		}
+		.background{
+			background: url("https://img.freepik.com/free-photo/grunge-paint-background_1409-1337.jpg?w=1380&t=st=1659192933~exp=1659193533~hmac=67de47e3de590c005f8fddd6a7d13261958731fdf26973ffdd26626f985617c2") center center no-repeat;
+			background-size: cover;
+			height: 100vh;
+			display: flex;
+			flex-direction: column;
+			color: #000;
+			align-items: center;
+			padding: 10rem;
+		}
+		h1{
+			margin-bottom: 1rem;
+			font-size: 3rem;
+		}
+		p{
+			font-size: 2rem;
+			letter-spacing: 1px;
+		}
+		@media(max-width: 500px){
+			h1{
+				margin-bottom: 0.5rem;
+				font-size: 2rem;
+			}
+			p{
+				font-size: 1rem;
+			}
+		}
+	</style>
+	<!--  Responsive Units em,rem, %, vw, vh -->
+</head>
+<body>
+	<div>
+		<div class="background">
+			<h1>Welcome To The Site</h1>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, similique!</p>
+		</div>
+	</div>
+</body>
+</html>
