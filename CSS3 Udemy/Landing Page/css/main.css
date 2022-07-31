@@ -47,7 +47,7 @@
 	font-style: italic;
 }
 
-/* Projects */
+/* About */
 
 #about{
 	color: #fff;
@@ -73,10 +73,11 @@
 
 /* Projects */
 
-#projects{
+#project-main{
 	color: #333;
 	padding: 1rem;
 }
+
 .projects{
 	display: flex;
 	flex-direction: column;
@@ -116,14 +117,13 @@
 	list-style-type: none;
 	display: flex;
 	margin-top: 1rem;
-	align-self:flex-end;
+	justify-content: center;
 }
 
 #contact .contact-form ul li a{
 	padding: 1rem;
 	font-size: 2rem;
 }
-
 
 #contact .contact-form ul li a:hover{
 	opacity: 0.4;
